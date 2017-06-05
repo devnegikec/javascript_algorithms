@@ -26,3 +26,14 @@ Binarytree.prototype.insert = function(value) {
   }
   recurse(this);
 }
+
+/*
+to see it working put everything on browser console.
+  var i = Binarytree(20);
+  i.insert(8);
+  i.insert(22);
+  i.insert(12);
+  i.insert(4);
+  i.insert(10);
+  i.insert(14);
+*/
